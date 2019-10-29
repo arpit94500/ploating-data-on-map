@@ -9,7 +9,7 @@ from tkinter.filedialog import askopenfilename
 import mplcursors
 import numpy as np
 
-street_map = gpd.read_file('shape file\Admin2.shp')
+street_map = gpd.read_file('Admin2.shp')
 #street_map.crs
 #fig,ax = plt.subplots(figsize = (15,15))
 #street_map.plot(ax=ax)
